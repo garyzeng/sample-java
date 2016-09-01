@@ -1,0 +1,38 @@
+<menus groups="HPI_Q2C_QTCA_PORTAL_SUPER_USER, HPI_Q2C_QTCA_PORTAL_READ_ONLY" envs="aws" >
+    <menu name="Home" url="home" enabled="true" display="true" icon="" description="Home page" />
+    <menu name="Operations Cockpit" url="" enabled="true" display="true" icon="" description="Operations Cockpit" >
+     	<menu name="E2E Correlation" url="iframe?src=https://cor-itg.corp.hp.com:1643/HPI/q2c/correlation" enabled="true" display="true" icon="" description="E2E Correlation" />
+     	<menu name="Quote Status" url="quoteStatus" enabled="true" display="true" icon="" description="Quote Status" />
+     	<menu name="Order Status" url="iframe?src=https://oss-itg.corp.hp.com/os/int/views/main" enabled="true" display="true" icon="" description="Order Status" />
+     	<menu name="Invoice Status" url="invoiceStatus" enabled="true" display="true" icon="" description="Invoice Status" />
+     	<menu name="Claim Status" url="iframe?src=https://eclaims-itg.corp.hp.com/ww/eclaims/claimadmin/app" enabled="true" display="true" icon="" description="Claim Status" />
+     	<menu name="Document Generation" url="documentGeneration" enabled="true" display="true" icon="" description="Document Generation" />
+     </menu>
+    <menu name="Salesforce" url="iframe?src=https://hpi--hpitest.cs21.my.salesforce.com" enabled="true" display="true" icon="" description="Salesforce" />
+    <menu name="Quote &amp; Order" url="" enabled="true" display="true" icon="" description="Quote &amp; Order" >
+        <menu name="BMI Quoter" url="iframe?src=https://itgpanhpi.bigmachines.com" enabled="true" display="true" icon="" description="BMI Quoter" />
+    </menu>
+    <menu name="Application Center" url="applicationCenter" enabled="true" display="true" icon="" description="Application Center" />
+    <menu name="My Dashboard" url="myDashboard" enabled="true" display="true" icon="" description="My Dashboard" >
+    	<menu name="Usage Metrics SOP" url="iframe?src=https://my.omniture.com/login" enabled="true" display="true" icon="" description="Usage Metrics SOP" />
+    </menu>
+    <menu name="Support" url="introductionToSalesOpsPortal" enabled="true" display="true" icon="" description="Support" >
+    	<menu name="Introduction to Sales Ops Portal" url="introductionToSalesOpsPortal" enabled="true" display="true" icon="" description="Introduction to Sales Ops Portal" />
+    	<menu name="Request IT Support" url="iframe?src=http://itsm-hpit.corp.hp.com/sm/index.do%3FRememberMe=false" enabled="true" display="true" icon="" description="Request IT Support" />
+    	<menu name="TechDirect Support" url="iframe?src=http://techdirect.corp.hp.com/support/login/default.aspx" enabled="true" display="true" icon="" description="TechDirect Support" />
+    	<menu name="User Preference" url="userPreference" enabled="true" display="true" icon="" description="User Preference" />
+    </menu>
+    <menu name="Administration" url="" enabled="true" display="true" icon="" description="Administration" >
+    	<menu name="User Group Permission Management" url="userGroupGroupPermissionManagement" enabled="true" display="true" icon="" description="User Group Permission Management" />
+    	<menu name="User Access Report" url="userAccessReport" enabled="true" display="true" icon="" description="User Access Report" />
+    </menu>
+    <menu name="Master Data" url="" enabled="true" display="true" icon="" description="Master Data" >
+    	<menu name="MDCP Customer Data Look UP" url="mdcpCustomerDataLookUP" enabled="true" display="true" icon="" description="MDCP Customer Data Look UP" />
+    	<menu name="Invoice Profile Configure" url="invoieProfile" enabled="true" display="true" icon="" description="Invoice Profile Configure" groups="HPI_Q2C_QTCA_PORTAL_ADMIN_USER" />
+    </menu>
+    <menu name="IT Corner" url="" enabled="true" display="true" icon="" description="IT Corner" >
+    	<menu name="Parameter Configuration" url="parameterConfiguration" enabled="true" display="true" icon="" description="Parameter Configuration" />
+    	<menu name="Algorithm Sequence" url="algorithmSequence" enabled="true" display="true" icon="" description="Algorithm Sequence" />
+    	<menu name="Suspend Resume Config" url="suspendResumeSuspendResumeConfig" enabled="true" display="true" icon="" description="Suspend Resume Config" />
+    </menu>
+</menus>
