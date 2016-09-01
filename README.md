@@ -1,1 +1,2 @@
-# Snippets
+# sample-java
+Java Sample Codes
